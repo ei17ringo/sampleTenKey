@@ -515,6 +515,7 @@
 				191FD62E1F0D1465002863A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		191FD62F1F0D1465002863A0 /* Build configuration list for PBXNativeTarget "sampleTenKeyTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +524,7 @@
 				191FD6311F0D1465002863A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		191FD6321F0D1465002863A0 /* Build configuration list for PBXNativeTarget "sampleTenKeyUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +533,7 @@
 				191FD6341F0D1465002863A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

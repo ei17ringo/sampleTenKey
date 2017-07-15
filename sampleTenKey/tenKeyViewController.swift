@@ -10,6 +10,8 @@ import UIKit
 
 class tenKeyViewController: UIViewController {
 
+    var selectedName = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +22,16 @@ class tenKeyViewController: UIViewController {
         
         let fv = self.presentingViewController?.childViewControllers[0] as! FirstViewController
         
-        fv.txtSample.text = "1"
+        switch selectedName {
+        case "txtSample":
+            fv.txtSample.text = "1"
+        case "txtSample2":
+            fv.txtSample2.text = "1"
+
+        default:
+            print("Other")
+        }
+        
         
     }
     override func didReceiveMemoryWarning() {
